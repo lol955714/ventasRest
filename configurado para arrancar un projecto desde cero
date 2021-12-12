@@ -1,0 +1,9 @@
+cd /
+composer create-project laravel/laravel /app
+chown -R www-data:www-data /app/storage
+chmod -R 775 /app/storage
+en source tirar sudo chown -R 1000:1000 source
+instalar nodejs a pie comentando los dos primeros repos
+docker compose exec app php artisan key:generate
+	docker compose exec app php artisan storage:link
+	docker compose exec app chmod -R 777 storage bootstrap/cache

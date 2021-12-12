@@ -1,0 +1,3 @@
+<?php //App%255CEntity%255CLineaVenta%2523getCantidad
+
+return [PHP_INT_MAX, []];
